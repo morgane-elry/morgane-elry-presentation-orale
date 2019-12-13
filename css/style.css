@@ -1,0 +1,412 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  margin-left: 0;
+  font-size: 16px;
+  margin: 0;
+  font-family: 'Roboto';
+  background-color: #FAFAFA;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navigation */
+nav {
+  background-color: rgba(50, 103, 56, 0.75);
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(20, 27, 181, 1);
+  align-items: center;
+}
+
+.logo-nav img {
+  width: 40%;
+}
+
+.icons-nav ul {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons-nav li {
+  padding: 15px;
+}
+
+.nav-burger-menu {
+  display: none;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Fira Sans";
+  width: 100%;
+}
+
+.categories li {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Hero */
+.hero-img {
+  background-image: url("../images/univers_mario.jpg");
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+  margin-top: 112px;
+}
+
+.hero-txt {
+  flex: 0 0 100%;
+  display: flex;
+  text-align: center;
+  color: white;
+  padding-top: 240px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero-txt h1 {
+  width: 100%;
+  text-align: left;
+  display: block;
+  margin: 0;
+}
+
+.hero-txtp1 {
+  text-align: right;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: 'Indie Flower';
+  display: inline-block;
+}
+
+.hero-txtp2 {
+  font-size: 50px;
+  font-family: 'Indie Flower';
+  display: inline-block;
+  width: 100%;
+}
+
+.hero-btn {
+  background-color: rgba(50, 103, 56, 1);
+  font-size: 30px;
+  border-radius: 16px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+/* Articles */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a, a:active, a:visited {
+  color: white;
+}
+
+.welcome {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-family: 'Fira Sans';
+  font-size: 25px;
+  background-color: rgba(20, 27, 181, 1);
+  color: white;
+  padding: 16px 0px;
+}
+
+.welcome-text--wrapper span {
+  display: inline-block;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.welcome-text1 {
+  margin-bottom: 35px;
+  line-height: 2.5rem;
+}
+
+.welcome-text2 {
+  display: flex;
+  font-size: 20px;
+  line-height: 1.7rem;
+}
+
+.single_product-wrapper-wrapper {
+  text-align: center;
+  justify-content: space-between;
+}
+
+a:hover {
+  transition: ease .7s;
+}
+
+section div img {
+  width: 100%;
+}
+
+/* .product-cta {
+  color: white;
+  background-color:rgba(20, 27, 181, 1);
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+} */
+.single_product-wrapper p {
+  margin: 0
+}
+
+.free-shipping {
+  max-width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: grey;
+  font-size: 30PX;
+  font-family: 'Fira Sans';
+}
+
+section {
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 30px;
+  display: flex;
+}
+
+article {
+  padding: 15px;
+  width: 30%;
+
+}
+
+.macarons-ctn {
+  display: flex;
+}
+
+.macaron {
+  padding: 6px 11px;
+  line-height: 1;
+  font-size: .6875rem;
+  color: white;
+  font-weight: bold;
+  margin-right: 1px;
+}
+
+.macaron1 {
+  background-color: rgba(20, 27, 181, 1);
+}
+
+.macaron2 {
+  background-color: rgba(50, 103, 56, 1);
+}
+
+.discount_macaron {
+  background-color: rgba(175, 0, 175, 1);
+}
+
+.article a {
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-pdct {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-prdct1 {
+  background-color: #CCCCCC;
+}
+
+.btn-prdct2 {
+  background-color: rgba(20, 27, 181, 1);
+}
+
+
+/* Banniere feature */
+.banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: white;
+  background-color: rgba(50, 103, 56, 0.85);
+  ;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(20, 27, 181, 1);
+}
+
+.feature-all {
+  max-width: 500px;
+  flex: 0 0 33.3%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.feature-icons img {
+  width: 50px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(20, 27, 181, 1);
+  padding: 48px 0;
+  border-bottom: 1px solid #666666;
+}
+
+div[class^=footer__] {
+  flex: 0 0 33.3%;
+  max-width: 33.3%;
+  margin-top: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  padding: 16px;
+}
+
+.footer__form-contact form {
+  padding: 16px 0;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.footer__form-contact label, .footer__form-contact textarea, .footer__form-contact input {
+  display: block;
+  width: 100%
+}
+
+.footer__form-contact label {
+  margin-bottom: 8px;
+  color: white;
+}
+
+.footer__form-contact input,{
+  color: white;
+  margin-bottom: 16px;
+  background: none;
+  border-color: white;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  padding: 8px 0;
+}
+
+.footer__form-contact textarea {
+  border-width: 1px;
+}
+
+.footer__form-contact input[type=submit] {
+  width: auto;
+  cursor: pointer;
+  padding: 8px;
+  margin: auto;
+  border: 0;
+  background-color: rgba(20, 27, 181, 1);
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* footer bottom*/
+.footer-text {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 16px;
+  background-color: rgba(20, 27, 181, 1);
+  ;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.old_price {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
+  padding-right: 8px;
+}
+
+.ancre img {
+  width: 40px;
+}
+
+/* .ancre{
+  width: 100%;
+  height: 400px;
+  position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+.seo {
+  color: rgba(20, 27, 181, 1);
+  background-color: rgba(20, 27, 181, 1);
+  size: 5px;
+  margin: 0;
+}
+
+/* Référencement SEO */
+
+h4 {
+  margin: 0
+};
